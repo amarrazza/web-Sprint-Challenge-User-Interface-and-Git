@@ -35,7 +35,7 @@ body {
 
 * {
     box-sizing: border-box;
-    border: .5px solid red;
+    
 }
 
 html, body {
@@ -129,7 +129,7 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: gray;
     text-decoration: none;
 }
 
@@ -149,7 +149,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-right: 3%;
+    margin-right: 5%;
     
 }
 header nav a{
@@ -193,22 +193,23 @@ header nav a{
     background-color: dodgerblue;
 }
 .about{
-    padding: 2%;
+    padding: 0 2% 2%;
     border-bottom: 1px dashed black;
     
 }
 .mid-about{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 2%;
 }
 .abox{
-    width: 45%;
-    margin: 2% 0;
+    width: 48%;
+    margin: 3% 0;
     border-bottom: 1px dashed black;
 }
 .abox h2{
-    margin-top: 1%;
+    margin-top: 2%;
 }
 .abox button{
     background-color: white;
@@ -217,4 +218,11 @@ header nav a{
     padding: 2% 6%;
     margin: 4% 0;
     font-size: 14px;
+}
+
+.bot-about{
+    padding: 3% 2% 4%;
+}
+.bot-about p{
+    margin-top: 1%;
 }
